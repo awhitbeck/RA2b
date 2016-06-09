@@ -3,7 +3,6 @@
 
 #include "RA2bUtils/src/RA2bNtuple.cc"
 #include "RA2bUtils/src/signalRegion.cc"
-#include "RA2bUtils/src/singlePhotonRegion.cc"
 #include "RA2bUtils/src/selectBaseline.cc"
 #include "RA2bUtils/src/selectPrompt.cc"
 #include "RA2bUtils/src/selectBin.cc"
@@ -43,7 +42,7 @@ int main(int argc, char** argv){
   TChain* t = buildChain(rmap.begin()->second,"TreeMaker2/PreSelection");  
   RA2bNtuple *ntuple = new RA2bNtuple(t);
   
-  singlePhotonRegion photonCR(ntuple,sampleTag,"singlePhotonCR");
+  signalRegion SR(ntuple,sampleTag,"SR");
   
   for( int i = 0 ; i < 100000 /*t->GetEntries()*/ ; i++ ){
 
@@ -52,15 +51,15 @@ int main(int argc, char** argv){
       cout << "event: " << i << endl;
     ntuple->patchJetID();
 
-    photonCR.analyze();
+    SR.analyze();
 
   }
 
   cout << "save tree" << endl;
 
-  TFile* outFile = new TFile("photonIDISO_"+fileTag+".root","RECREATE");
+  TFile* outFile = new TFile("baselinePlots_"+fileTag+".root","RECREATE");
   
-  photonCR.postProcess();
+  SR.postProcess();
 
   outFile->Close();
   
