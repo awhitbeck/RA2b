@@ -1,0 +1,2001 @@
+[?1034h######################
+      Trigger         
+0 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v4
+1 HLT_DoubleMu8_Mass8_PFHT300_v4
+2 HLT_Ele105_CaloIdVT_GsfTrkIdT_v3
+3 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v2
+4 HLT_Ele15_IsoVVVL_PFHT350_v2
+5 HLT_Ele15_IsoVVVL_PFHT400_v
+6 HLT_Ele15_IsoVVVL_PFHT600_v3
+7 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v3
+8 HLT_Ele25_eta2p1_WPTight_v 
+9 HLT_Ele27_WPTight_v
+10 HLT_Ele27_eta2p1_WPLoose_v 
+11 HLT_Ele45_WPLoose_v
+12 HLT_Ele50_IsoVVVL_PFHT400_v
+13 HLT_IsoMu22_eta2p1_v
+14 HLT_IsoMu22_v2
+15 HLT_IsoMu24_v 
+16 HLT_IsoTkMu22_v2
+17 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v2
+18 HLT_Mu15_IsoVVVL_PFHT350_v2
+19 HLT_Mu15_IsoVVVL_PFHT400_v
+20 HLT_Mu15_IsoVVVL_PFHT600_v3
+21 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v2
+22 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v2
+23 HLT_Mu50_IsoVVVL_PFHT400_v
+24 HLT_Mu50_v2
+25 HLT_PFHT300_PFMET100_v1
+26 HLT_PFHT300_PFMET110_v1
+27 HLT_PFHT800_v2
+28 HLT_PFHT900_v1
+29 HLT_PFMET100_PFMHT100_IDTight_v2
+30 HLT_PFMET110_PFMHT110_IDTight_v2
+31 HLT_PFMET120_PFMHT120_IDTight_v2
+32 HLT_PFMET90_PFMHT90_IDTight_v2
+33 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v1
+34 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v1
+35 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v1
+36 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v1
+37 HLT_Photon165_HE10_v3
+38 HLT_Photon175_v3
+39 HLT_Photon90_CaloIdL_PFHT500_v3
+40 HLT_TkMu50_v
+######################
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=2581.42 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01  -6.79443e+01
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=2580.01 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=5.17245e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.64517e-01   8.43113e-03   8.64210e-04  -2.91909e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  7.110e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=2580.01 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=5.18151e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         8.64517e-01   8.43113e-03   1.72842e-04   8.16909e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  7.110e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=2610.33 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01  -1.20296e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=2605.94 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=3.4213e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.75050e-01   8.10192e-03   8.63829e-04  -7.54828e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  6.565e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=2605.94 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=3.423e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      8.75050e-01   8.10192e-03   1.72766e-04   8.48215e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  6.565e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,2.67]
+purity in SR:  0.870243381195 +/- 0.0084869759216
+purity from fit:  0.864516866023 +/- 0.00843112856048
+ALT purity in SR:  0.876542419721 +/- 0.00801804054832
+ALT purity from fit:  0.875050497414 +/- 0.0081019222554
+[?1034h######################
+      Trigger         
+0 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v4
+1 HLT_DoubleMu8_Mass8_PFHT300_v4
+2 HLT_Ele105_CaloIdVT_GsfTrkIdT_v3
+3 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v2
+4 HLT_Ele15_IsoVVVL_PFHT350_v2
+5 HLT_Ele15_IsoVVVL_PFHT400_v
+6 HLT_Ele15_IsoVVVL_PFHT600_v3
+7 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v3
+8 HLT_Ele25_eta2p1_WPTight_v 
+9 HLT_Ele27_WPTight_v
+10 HLT_Ele27_eta2p1_WPLoose_v 
+11 HLT_Ele45_WPLoose_v
+12 HLT_Ele50_IsoVVVL_PFHT400_v
+13 HLT_IsoMu22_eta2p1_v
+14 HLT_IsoMu22_v2
+15 HLT_IsoMu24_v 
+16 HLT_IsoTkMu22_v2
+17 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v2
+18 HLT_Mu15_IsoVVVL_PFHT350_v2
+19 HLT_Mu15_IsoVVVL_PFHT400_v
+20 HLT_Mu15_IsoVVVL_PFHT600_v3
+21 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v2
+22 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v2
+23 HLT_Mu50_IsoVVVL_PFHT400_v
+24 HLT_Mu50_v2
+25 HLT_PFHT300_PFMET100_v1
+26 HLT_PFHT300_PFMET110_v1
+27 HLT_PFHT800_v2
+28 HLT_PFHT900_v1
+29 HLT_PFMET100_PFMHT100_IDTight_v2
+30 HLT_PFMET110_PFMHT110_IDTight_v2
+31 HLT_PFMET120_PFMHT120_IDTight_v2
+32 HLT_PFMET90_PFMHT90_IDTight_v2
+33 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v1
+34 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v1
+35 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v1
+36 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v1
+37 HLT_Photon165_HE10_v3
+38 HLT_Photon175_v3
+39 HLT_Photon90_CaloIdL_PFHT500_v3
+40 HLT_TkMu50_v
+######################
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=2374.72 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01  -7.38455e+01
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=2372.83 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=1.43585e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.67811e-01   8.89670e-03   8.83738e-04  -1.44240e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  7.917e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=2372.83 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=1.43831e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         8.67811e-01   8.89670e-03   1.76748e-04   8.26583e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  7.917e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=2385.71 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01  -8.68251e+01
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=2383 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=5.80715e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.71570e-01   8.93945e-03   9.00858e-04  -2.85170e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  7.993e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=2383 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=5.81257e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      8.71570e-01   8.93945e-03   1.80172e-04   8.37750e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  7.993e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,2.67]
+purity in SR:  0.876325737866 +/- 0.0089839946524
+purity from fit:  0.867810608385 +/- 0.00889669848567
+ALT purity in SR:  0.872437176628 +/- 0.00890974997919
+ALT purity from fit:  0.871569837092 +/- 0.00893944965314
+[?1034h######################
+      Trigger         
+0 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v4
+1 HLT_DoubleMu8_Mass8_PFHT300_v4
+2 HLT_Ele105_CaloIdVT_GsfTrkIdT_v3
+3 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v2
+4 HLT_Ele15_IsoVVVL_PFHT350_v2
+5 HLT_Ele15_IsoVVVL_PFHT400_v
+6 HLT_Ele15_IsoVVVL_PFHT600_v3
+7 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v3
+8 HLT_Ele25_eta2p1_WPTight_v 
+9 HLT_Ele27_WPTight_v
+10 HLT_Ele27_eta2p1_WPLoose_v 
+11 HLT_Ele45_WPLoose_v
+12 HLT_Ele50_IsoVVVL_PFHT400_v
+13 HLT_IsoMu22_eta2p1_v
+14 HLT_IsoMu22_v2
+15 HLT_IsoMu24_v 
+16 HLT_IsoTkMu22_v2
+17 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v2
+18 HLT_Mu15_IsoVVVL_PFHT350_v2
+19 HLT_Mu15_IsoVVVL_PFHT400_v
+20 HLT_Mu15_IsoVVVL_PFHT600_v3
+21 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v2
+22 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v2
+23 HLT_Mu50_IsoVVVL_PFHT400_v
+24 HLT_Mu50_v2
+25 HLT_PFHT300_PFMET100_v1
+26 HLT_PFHT300_PFMET110_v1
+27 HLT_PFHT800_v2
+28 HLT_PFHT900_v1
+29 HLT_PFMET100_PFMHT100_IDTight_v2
+30 HLT_PFMET110_PFMHT110_IDTight_v2
+31 HLT_PFMET120_PFMHT120_IDTight_v2
+32 HLT_PFMET90_PFMHT90_IDTight_v2
+33 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v1
+34 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v1
+35 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v1
+36 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v1
+37 HLT_Photon165_HE10_v3
+38 HLT_Photon175_v3
+39 HLT_Photon90_CaloIdL_PFHT500_v3
+40 HLT_TkMu50_v
+######################
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=447.98 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01  -7.02058e+01
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=440.806 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=1.39606e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         9.14833e-01   1.48704e-02   7.72921e-04  -2.21682e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.213e-04 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=440.806 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=1.39609e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         9.14833e-01   1.48704e-02   1.54584e-04   9.78508e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.213e-04 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.85)
+
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.918618
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.918618)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.918618)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.918618)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.764994
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.764994)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.764994)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.764994)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.918618
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.918618)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.918618)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.918618)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.921557
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.921557)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.921557)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.921557)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.921703
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.921703)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.921703)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.921703)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.978343)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.635965)
+
+ FCN=-1e+30 FROM MIGRAD    STATUS=INITIATE       15 CALLS          16 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.85)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.978343)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.635965)
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM HESSE     STATUS=FAILED          3 CALLS          19 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   3.00465e-01   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.85)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.978343)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.635965)
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM MIGRAD    STATUS=CONVERGED      21 CALLS          22 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   3.00465e-01   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.275e-01 
+ERR MATRIX APPROXIMATE
+ **********
+ **   18 **HESSE         500
+ **********
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85 +/- 0.300465)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.85 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.85 +/- 0.300465)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343 +/- 0.300465)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.978343 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.978343 +/- 0.300465)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965 +/- 0.300465)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.635965 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/8527,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.635965 +/- 0.300465)
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM HESSE     STATUS=FAILED          3 CALLS          25 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      6.35965e-01   3.00465e-01   0.00000e+00   7.75397e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.275e-01 
+ERR MATRIX APPROXIMATE
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,2.67]
+purity in SR:  0.920278158926 +/- 0.0149589260167
+purity from fit:  0.91483275039 +/- 0.0148704120575
+ALT purity in SR:  0.636453525048 +/- 0.432550247726
+ALT purity from fit:  0.635964738124 +/- 0.300465240635
+[?1034h######################
+      Trigger         
+0 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v4
+1 HLT_DoubleMu8_Mass8_PFHT300_v4
+2 HLT_Ele105_CaloIdVT_GsfTrkIdT_v3
+3 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v2
+4 HLT_Ele15_IsoVVVL_PFHT350_v2
+5 HLT_Ele15_IsoVVVL_PFHT400_v
+6 HLT_Ele15_IsoVVVL_PFHT600_v3
+7 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v3
+8 HLT_Ele25_eta2p1_WPTight_v 
+9 HLT_Ele27_WPTight_v
+10 HLT_Ele27_eta2p1_WPLoose_v 
+11 HLT_Ele45_WPLoose_v
+12 HLT_Ele50_IsoVVVL_PFHT400_v
+13 HLT_IsoMu22_eta2p1_v
+14 HLT_IsoMu22_v2
+15 HLT_IsoMu24_v 
+16 HLT_IsoTkMu22_v2
+17 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v2
+18 HLT_Mu15_IsoVVVL_PFHT350_v2
+19 HLT_Mu15_IsoVVVL_PFHT400_v
+20 HLT_Mu15_IsoVVVL_PFHT600_v3
+21 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v2
+22 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v2
+23 HLT_Mu50_IsoVVVL_PFHT400_v
+24 HLT_Mu50_v2
+25 HLT_PFHT300_PFMET100_v1
+26 HLT_PFHT300_PFMET110_v1
+27 HLT_PFHT800_v2
+28 HLT_PFHT900_v1
+29 HLT_PFMET100_PFMHT100_IDTight_v2
+30 HLT_PFMET110_PFMHT110_IDTight_v2
+31 HLT_PFMET120_PFMHT120_IDTight_v2
+32 HLT_PFMET90_PFMHT90_IDTight_v2
+33 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v1
+34 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v1
+35 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v1
+36 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v1
+37 HLT_Photon165_HE10_v3
+38 HLT_Photon175_v3
+39 HLT_Photon90_CaloIdL_PFHT500_v3
+40 HLT_TkMu50_v
+######################
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=152.854 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01  -5.53990e+01
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=142.699 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=7.18165e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         9.54943e-01   1.69245e-02   6.74983e-04  -3.28083e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.871e-04 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=142.699 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=7.18168e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         9.54943e-01   1.69245e-02   1.34997e-04   1.14301e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.871e-04 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.85)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85)
+
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.918618
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.918618)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.918618)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.764994
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.764994)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.764994)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.918618
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.918618)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.918618)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.921557
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.921557)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.921557)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.921703
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.921703)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.921703)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.92171)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.92171)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.92171)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.92171)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.92171)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.92171)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.92171)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.92171)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.978343)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.635965)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965)
+
+ FCN=-1e+30 FROM MIGRAD    STATUS=INITIATE       15 CALLS          16 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.85)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.978343)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.635965)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965)
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM HESSE     STATUS=FAILED          3 CALLS          19 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   3.00465e-01   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.85)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.978343)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.635965)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965)
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM MIGRAD    STATUS=CONVERGED      21 CALLS          22 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   3.00465e-01   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.275e-01 
+ERR MATRIX APPROXIMATE
+ **********
+ **   18 **HESSE         500
+ **********
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.85 +/- 0.300465)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85 +/- 0.300465)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.978343 +/- 0.300465)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343 +/- 0.300465)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/7953,nonpromptPdf = 0/17), !coefficients=(fracALT = 0.635965 +/- 0.300465)
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965 +/- 0.300465)
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM HESSE     STATUS=FAILED          3 CALLS          25 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      6.35965e-01   3.00465e-01   0.00000e+00   7.75397e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.275e-01 
+ERR MATRIX APPROXIMATE
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,2.67]
+purity in SR:  0.957210641379 +/- 0.016964673343
+purity from fit:  0.954942981393 +/- 0.016924483536
+ALT purity in SR:  0.636219627665 +/- 0.451349192161
+ALT purity from fit:  0.635964738124 +/- 0.300465240635
+[?1034h######################
+      Trigger         
+0 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v4
+1 HLT_DoubleMu8_Mass8_PFHT300_v4
+2 HLT_Ele105_CaloIdVT_GsfTrkIdT_v3
+3 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v2
+4 HLT_Ele15_IsoVVVL_PFHT350_v2
+5 HLT_Ele15_IsoVVVL_PFHT400_v
+6 HLT_Ele15_IsoVVVL_PFHT600_v3
+7 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v3
+8 HLT_Ele25_eta2p1_WPTight_v 
+9 HLT_Ele27_WPTight_v
+10 HLT_Ele27_eta2p1_WPLoose_v 
+11 HLT_Ele45_WPLoose_v
+12 HLT_Ele50_IsoVVVL_PFHT400_v
+13 HLT_IsoMu22_eta2p1_v
+14 HLT_IsoMu22_v2
+15 HLT_IsoMu24_v 
+16 HLT_IsoTkMu22_v2
+17 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v2
+18 HLT_Mu15_IsoVVVL_PFHT350_v2
+19 HLT_Mu15_IsoVVVL_PFHT400_v
+20 HLT_Mu15_IsoVVVL_PFHT600_v3
+21 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v2
+22 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v2
+23 HLT_Mu50_IsoVVVL_PFHT400_v
+24 HLT_Mu50_v2
+25 HLT_PFHT300_PFMET100_v1
+26 HLT_PFHT300_PFMET110_v1
+27 HLT_PFHT800_v2
+28 HLT_PFHT900_v1
+29 HLT_PFMET100_PFMHT100_IDTight_v2
+30 HLT_PFMET110_PFMHT110_IDTight_v2
+31 HLT_PFMET120_PFMHT120_IDTight_v2
+32 HLT_PFMET90_PFMHT90_IDTight_v2
+33 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v1
+34 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v1
+35 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v1
+36 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v1
+37 HLT_Photon165_HE10_v3
+38 HLT_Photon175_v3
+39 HLT_Photon90_CaloIdL_PFHT500_v3
+40 HLT_TkMu50_v
+######################
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=3638.45 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01   7.36917e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=3431.65 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=1.61946e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         5.97789e-01   1.43928e-02   1.17953e-03   1.37081e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.072e-04 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=3431.65 FROM HESSE     STATUS=OK              5 CALLS          22 TOTAL
+                     EDM=1.61938e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         5.97789e-01   1.43928e-02   2.35906e-04   1.96846e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.072e-04 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=3680.85 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01   6.94042e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=3496.5 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=4.82502e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      6.16114e-01   1.39835e-02   1.17142e-03   2.41550e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.956e-04 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=3496.5 FROM HESSE     STATUS=OK              5 CALLS          22 TOTAL
+                     EDM=4.82407e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      6.16114e-01   1.39835e-02   2.34284e-04   2.34369e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.956e-04 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,1.79]
+purity in SR:  0.699635941296 +/- 0.0168449543579
+purity from fit:  0.597788706061 +/- 0.0143928047073
+ALT purity in SR:  0.629071154828 +/- 0.0138528505453
+ALT purity from fit:  0.616114453637 +/- 0.0139834542453
+[?1034h######################
+      Trigger         
+0 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v4
+1 HLT_DoubleMu8_Mass8_PFHT300_v4
+2 HLT_Ele105_CaloIdVT_GsfTrkIdT_v3
+3 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v2
+4 HLT_Ele15_IsoVVVL_PFHT350_v2
+5 HLT_Ele15_IsoVVVL_PFHT400_v
+6 HLT_Ele15_IsoVVVL_PFHT600_v3
+7 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v3
+8 HLT_Ele25_eta2p1_WPTight_v 
+9 HLT_Ele27_WPTight_v
+10 HLT_Ele27_eta2p1_WPLoose_v 
+11 HLT_Ele45_WPLoose_v
+12 HLT_Ele50_IsoVVVL_PFHT400_v
+13 HLT_IsoMu22_eta2p1_v
+14 HLT_IsoMu22_v2
+15 HLT_IsoMu24_v 
+16 HLT_IsoTkMu22_v2
+17 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v2
+18 HLT_Mu15_IsoVVVL_PFHT350_v2
+19 HLT_Mu15_IsoVVVL_PFHT400_v
+20 HLT_Mu15_IsoVVVL_PFHT600_v3
+21 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v2
+22 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v2
+23 HLT_Mu50_IsoVVVL_PFHT400_v
+24 HLT_Mu50_v2
+25 HLT_PFHT300_PFMET100_v1
+26 HLT_PFHT300_PFMET110_v1
+27 HLT_PFHT800_v2
+28 HLT_PFHT900_v1
+29 HLT_PFMET100_PFMHT100_IDTight_v2
+30 HLT_PFMET110_PFMHT110_IDTight_v2
+31 HLT_PFMET120_PFMHT120_IDTight_v2
+32 HLT_PFMET90_PFMHT90_IDTight_v2
+33 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v1
+34 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v1
+35 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v1
+36 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v1
+37 HLT_Photon165_HE10_v3
+38 HLT_Photon175_v3
+39 HLT_Photon90_CaloIdL_PFHT500_v3
+40 HLT_TkMu50_v
+######################
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=3140.26 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01   5.98855e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=2977.52 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=3.6032e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         6.10014e-01   1.52742e-02   1.17752e-03   1.91650e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.334e-04 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=2977.52 FROM HESSE     STATUS=OK              5 CALLS          22 TOTAL
+                     EDM=3.60247e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         6.10014e-01   1.52742e-02   2.35504e-04   2.21843e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.334e-04 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=3149.36 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01   5.81125e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=2999.6 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=3.92806e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      6.26388e-01   1.46975e-02   1.14887e-03   2.06258e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.161e-04 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=2999.6 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=3.92802e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      6.26388e-01   1.46975e-02   2.29775e-04   2.55547e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.161e-04 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,1.79]
+purity in SR:  0.780570762515 +/- 0.0195448292133
+purity from fit:  0.610014105131 +/- 0.0152742353096
+ALT purity in SR:  0.63672835431 +/- 0.0145495842689
+ALT purity from fit:  0.626387519459 +/- 0.0146974742865
+[?1034h######################
+      Trigger         
+0 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v4
+1 HLT_DoubleMu8_Mass8_PFHT300_v4
+2 HLT_Ele105_CaloIdVT_GsfTrkIdT_v3
+3 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v2
+4 HLT_Ele15_IsoVVVL_PFHT350_v2
+5 HLT_Ele15_IsoVVVL_PFHT400_v
+6 HLT_Ele15_IsoVVVL_PFHT600_v3
+7 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v3
+8 HLT_Ele25_eta2p1_WPTight_v 
+9 HLT_Ele27_WPTight_v
+10 HLT_Ele27_eta2p1_WPLoose_v 
+11 HLT_Ele45_WPLoose_v
+12 HLT_Ele50_IsoVVVL_PFHT400_v
+13 HLT_IsoMu22_eta2p1_v
+14 HLT_IsoMu22_v2
+15 HLT_IsoMu24_v 
+16 HLT_IsoTkMu22_v2
+17 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v2
+18 HLT_Mu15_IsoVVVL_PFHT350_v2
+19 HLT_Mu15_IsoVVVL_PFHT400_v
+20 HLT_Mu15_IsoVVVL_PFHT600_v3
+21 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v2
+22 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v2
+23 HLT_Mu50_IsoVVVL_PFHT400_v
+24 HLT_Mu50_v2
+25 HLT_PFHT300_PFMET100_v1
+26 HLT_PFHT300_PFMET110_v1
+27 HLT_PFHT800_v2
+28 HLT_PFHT900_v1
+29 HLT_PFMET100_PFMHT100_IDTight_v2
+30 HLT_PFMET110_PFMHT110_IDTight_v2
+31 HLT_PFMET120_PFMHT120_IDTight_v2
+32 HLT_PFMET90_PFMHT90_IDTight_v2
+33 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v1
+34 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v1
+35 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v1
+36 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v1
+37 HLT_Photon165_HE10_v3
+38 HLT_Photon175_v3
+39 HLT_Photon90_CaloIdL_PFHT500_v3
+40 HLT_TkMu50_v
+######################
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=586.869 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01   1.23823e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=556.116 FROM MIGRAD    STATUS=CONVERGED      17 CALLS          18 TOTAL
+                     EDM=1.86976e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         6.28355e-01   3.27733e-02   1.10211e-03   6.37097e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.076e-03 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=556.116 FROM HESSE     STATUS=OK              5 CALLS          23 TOTAL
+                     EDM=1.86947e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         6.28355e-01   3.27733e-02   2.20421e-04   2.59616e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.076e-03 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.85)
+
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.918618
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.918618)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.918618)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.764994
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.764994)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.764994)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.918618
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.918618)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.918618)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.921557
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.921557)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.921557)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.921703
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.921703)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.921703)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.978343)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.635965)
+
+ FCN=-1e+30 FROM MIGRAD    STATUS=INITIATE       15 CALLS          16 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.85)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.978343)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.635965)
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM HESSE     STATUS=FAILED          3 CALLS          19 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   3.00465e-01   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.85)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.978343)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.635965)
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM MIGRAD    STATUS=CONVERGED      21 CALLS          22 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   3.00465e-01   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.275e-01 
+ERR MATRIX APPROXIMATE
+ **********
+ **   18 **HESSE         500
+ **********
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85 +/- 0.300465)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.85 +/- 0.300465)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343 +/- 0.300465)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.978343 +/- 0.300465)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965 +/- 0.300465)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/2924,nonpromptPdf = 0/23), !coefficients=(fracALT = 0.635965 +/- 0.300465)
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM HESSE     STATUS=FAILED          3 CALLS          25 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      6.35965e-01   3.00465e-01   0.00000e+00   7.75397e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.275e-01 
+ERR MATRIX APPROXIMATE
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,1.79]
+purity in SR:  0.813391967447 +/- 0.0424243550569
+purity from fit:  0.628354553011 +/- 0.0327732971623
+ALT purity in SR:  0.638692665789 +/- 0.298143167147
+ALT purity from fit:  0.635964738124 +/- 0.300465240635
+[?1034h######################
+      Trigger         
+0 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v4
+1 HLT_DoubleMu8_Mass8_PFHT300_v4
+2 HLT_Ele105_CaloIdVT_GsfTrkIdT_v3
+3 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v2
+4 HLT_Ele15_IsoVVVL_PFHT350_v2
+5 HLT_Ele15_IsoVVVL_PFHT400_v
+6 HLT_Ele15_IsoVVVL_PFHT600_v3
+7 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v3
+8 HLT_Ele25_eta2p1_WPTight_v 
+9 HLT_Ele27_WPTight_v
+10 HLT_Ele27_eta2p1_WPLoose_v 
+11 HLT_Ele45_WPLoose_v
+12 HLT_Ele50_IsoVVVL_PFHT400_v
+13 HLT_IsoMu22_eta2p1_v
+14 HLT_IsoMu22_v2
+15 HLT_IsoMu24_v 
+16 HLT_IsoTkMu22_v2
+17 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v2
+18 HLT_Mu15_IsoVVVL_PFHT350_v2
+19 HLT_Mu15_IsoVVVL_PFHT400_v
+20 HLT_Mu15_IsoVVVL_PFHT600_v3
+21 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v2
+22 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v2
+23 HLT_Mu50_IsoVVVL_PFHT400_v
+24 HLT_Mu50_v2
+25 HLT_PFHT300_PFMET100_v1
+26 HLT_PFHT300_PFMET110_v1
+27 HLT_PFHT800_v2
+28 HLT_PFHT900_v1
+29 HLT_PFMET100_PFMHT100_IDTight_v2
+30 HLT_PFMET110_PFMHT110_IDTight_v2
+31 HLT_PFMET120_PFMHT120_IDTight_v2
+32 HLT_PFMET90_PFMHT90_IDTight_v2
+33 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v1
+34 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v1
+35 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v1
+36 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v1
+37 HLT_Photon165_HE10_v3
+38 HLT_Photon175_v3
+39 HLT_Photon90_CaloIdL_PFHT500_v3
+40 HLT_TkMu50_v
+######################
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=144.962 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01   2.90526e+01
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=139.523 FROM MIGRAD    STATUS=CONVERGED      17 CALLS          18 TOTAL
+                     EDM=1.50955e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         6.90989e-01   5.46606e-02   9.67684e-04   3.27683e-04
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  3.002e-03 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=139.523 FROM HESSE     STATUS=OK              5 CALLS          23 TOTAL
+                     EDM=1.50864e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         6.90989e-01   5.46606e-02   1.93537e-04   3.91935e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  3.002e-03 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.918618
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.918618)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.918618)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.918618)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.918618)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.918618)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.918618)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.764994
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.764994)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.764994)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.764994)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.764994)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.764994)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.764994)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.918618
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.918618)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.918618)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.918618)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.918618)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.918618)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.918618)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.921557
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.921557)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.921557)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.921557)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.921557)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.921557)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.921557)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.921703
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.921703)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.921703)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.921703)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.921703)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.921703)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.921703)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.92171
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.92171)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.92171)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+
+ FCN=-1e+30 FROM MIGRAD    STATUS=INITIATE       15 CALLS          16 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM HESSE     STATUS=FAILED          3 CALLS          19 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   3.00465e-01   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965)
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM MIGRAD    STATUS=CONVERGED      21 CALLS          22 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   3.00465e-01   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.275e-01 
+ERR MATRIX APPROXIMATE
+ **********
+ **   18 **HESSE         500
+ **********
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.85
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.85 +/- 0.300465)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.85 +/- 0.300465)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.978343
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.978343 +/- 0.300465)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.978343 +/- 0.300465)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fracALT=0.635965
+RooNLLVar::nll_modelALT_dataHist[ paramSet=(fracALT) ]
+     function value is NAN @ paramSet=(fracALT = 0.635965 +/- 0.300465)
+RooAddPdf::modelALT[ fracALT * promptPdf + [%] * nonpromptPdf ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965 +/- 0.300465)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(promptPdf = 0/1511,nonpromptPdf = 0/5), !coefficients=(fracALT = 0.635965 +/- 0.300465)
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM HESSE     STATUS=FAILED          3 CALLS          25 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      6.35965e-01   3.00465e-01   0.00000e+00   7.75397e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.275e-01 
+ERR MATRIX APPROXIMATE
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,1.79]
+purity in SR:  0.845733826202 +/- 0.0669017176123
+purity from fit:  0.69098873528 +/- 0.0546606175711
+ALT purity in SR:  0.63691077537 +/- 0.326947280307
+ALT purity from fit:  0.635964738124 +/- 0.300465240635
