@@ -1,0 +1,1776 @@
+[?1034h######################
+      Trigger         
+0 HLT_CaloJet500_NoJetID_v3
+1 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v7
+2 HLT_DoubleMu8_Mass8_PFHT300_v5
+3 HLT_Ele105_CaloIdVT_GsfTrkIdT_v6
+4 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v5
+5 HLT_Ele15_IsoVVVL_PFHT350_v5
+6 HLT_Ele15_IsoVVVL_PFHT400_v3
+7 HLT_Ele15_IsoVVVL_PFHT600_v6
+8 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v6
+9 HLT_Ele25_eta2p1_WPTight_v 
+10 HLT_Ele27_WPTight_v
+11 HLT_Ele27_eta2p1_WPLoose_v 
+12 HLT_Ele45_WPLoose_v
+13 HLT_Ele50_IsoVVVL_PFHT400_v3
+14 HLT_IsoMu16_eta2p1_MET30_v2
+15 HLT_IsoMu22_eta2p1_v2
+16 HLT_IsoMu22_v3
+17 HLT_IsoMu24_v 
+18 HLT_IsoTkMu22_v4
+19 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v3
+20 HLT_Mu15_IsoVVVL_PFHT350_v3
+21 HLT_Mu15_IsoVVVL_PFHT400_v1
+22 HLT_Mu15_IsoVVVL_PFHT600_v4
+23 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v3
+24 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v3
+25 HLT_Mu45_eta2p1_v3
+26 HLT_Mu50_IsoVVVL_PFHT400_v1
+27 HLT_Mu50_v3
+28 HLT_PFHT200_v3
+29 HLT_PFHT250_v3
+30 HLT_PFHT300_PFMET100_v2
+31 HLT_PFHT300_PFMET110_v2
+32 HLT_PFHT300_v3
+33 HLT_PFHT350_v4
+34 HLT_PFHT400_v3
+35 HLT_PFHT475_v3
+36 HLT_PFHT600_v4
+37 HLT_PFHT650_v4
+38 HLT_PFHT800_v3
+39 HLT_PFHT900_v2
+40 HLT_PFMET100_PFMHT100_IDTight_v3
+41 HLT_PFMET110_PFMHT110_IDTight_v3
+42 HLT_PFMET120_PFMHT120_IDTight_v3
+43 HLT_PFMET90_PFMHT90_IDTight_v3
+44 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v2
+45 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v2
+46 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v2
+47 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v2
+48 HLT_Photon165_HE10_v6
+49 HLT_Photon175_v6
+50 HLT_Photon90_CaloIdL_PFHT500_v6
+51 HLT_TkMu50_v2
+HLT_Photon175_v6
+######################
+nonpromptCut: &&MHT>200&&MHT<225&&NJets>=3&&HT>300
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(promptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=9783.3 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01  -2.73034e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=9775.95 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=3.38538e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.68674e-01   4.72233e-03   9.54601e-04  -1.31594e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.230e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=9775.95 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=3.38926e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         8.68674e-01   4.72233e-03   1.90920e-04   8.29137e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.230e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptDataPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=9734.01 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01  -7.58150e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=9688.51 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=8.84161e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.90006e-01   3.88951e-03   8.44698e-04  -2.39189e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.513e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=9688.51 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=8.84234e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      8.90006e-01   3.88951e-03   1.68940e-04   8.94685e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.513e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,2.67]
+promptALL: 1.00000003025
+promptSR: 0.957057535872
+nonpromptALL: 0.999999991385
+nonpromptSR: 0.370733291991
+nonpromptDataALL: 0.999999993481
+nonpromptDataSR: 0.228429032788
+modelALL: 1.00000002514
+modelSR: 0.880058072036
+purity from fit:  0.86867426234 +/- 0.00472232753655
+purity in SR:  0.94467771346 +/- 0.00513550104204
+ALT purity from fit:  0.890006064501 +/- 0.00388950960655
+ALT purity in SR:  0.971347426286 +/- 0.00424498809225
+[?1034h######################
+      Trigger         
+0 HLT_CaloJet500_NoJetID_v3
+1 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v7
+2 HLT_DoubleMu8_Mass8_PFHT300_v5
+3 HLT_Ele105_CaloIdVT_GsfTrkIdT_v6
+4 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v5
+5 HLT_Ele15_IsoVVVL_PFHT350_v5
+6 HLT_Ele15_IsoVVVL_PFHT400_v3
+7 HLT_Ele15_IsoVVVL_PFHT600_v6
+8 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v6
+9 HLT_Ele25_eta2p1_WPTight_v 
+10 HLT_Ele27_WPTight_v
+11 HLT_Ele27_eta2p1_WPLoose_v 
+12 HLT_Ele45_WPLoose_v
+13 HLT_Ele50_IsoVVVL_PFHT400_v3
+14 HLT_IsoMu16_eta2p1_MET30_v2
+15 HLT_IsoMu22_eta2p1_v2
+16 HLT_IsoMu22_v3
+17 HLT_IsoMu24_v 
+18 HLT_IsoTkMu22_v4
+19 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v3
+20 HLT_Mu15_IsoVVVL_PFHT350_v3
+21 HLT_Mu15_IsoVVVL_PFHT400_v1
+22 HLT_Mu15_IsoVVVL_PFHT600_v4
+23 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v3
+24 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v3
+25 HLT_Mu45_eta2p1_v3
+26 HLT_Mu50_IsoVVVL_PFHT400_v1
+27 HLT_Mu50_v3
+28 HLT_PFHT200_v3
+29 HLT_PFHT250_v3
+30 HLT_PFHT300_PFMET100_v2
+31 HLT_PFHT300_PFMET110_v2
+32 HLT_PFHT300_v3
+33 HLT_PFHT350_v4
+34 HLT_PFHT400_v3
+35 HLT_PFHT475_v3
+36 HLT_PFHT600_v4
+37 HLT_PFHT650_v4
+38 HLT_PFHT800_v3
+39 HLT_PFHT900_v2
+40 HLT_PFMET100_PFMHT100_IDTight_v3
+41 HLT_PFMET110_PFMHT110_IDTight_v3
+42 HLT_PFMET120_PFMHT120_IDTight_v3
+43 HLT_PFMET90_PFMHT90_IDTight_v3
+44 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v2
+45 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v2
+46 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v2
+47 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v2
+48 HLT_Photon165_HE10_v6
+49 HLT_Photon175_v6
+50 HLT_Photon90_CaloIdL_PFHT500_v6
+51 HLT_TkMu50_v2
+HLT_Photon175_v6
+######################
+nonpromptCut: &&MHT>225&&MHT<250&&NJets>=3&&HT>300
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(promptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=12746 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01  -2.31145e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=12742.6 FROM MIGRAD    STATUS=CONVERGED      17 CALLS          18 TOTAL
+                     EDM=5.20906e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.60327e-01   3.89588e-03   8.76067e-04  -6.42175e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.518e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=12742.6 FROM HESSE     STATUS=OK              5 CALLS          23 TOTAL
+                     EDM=5.20994e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         8.60327e-01   3.89588e-03   3.50427e-05   8.04745e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.518e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptDataPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=12657.2 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01  -1.77452e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=12655.2 FROM MIGRAD    STATUS=CONVERGED      17 CALLS          18 TOTAL
+                     EDM=1.53699e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.57886e-01   3.90869e-03   8.69616e-04  -3.50211e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.528e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=12655.2 FROM HESSE     STATUS=OK              5 CALLS          23 TOTAL
+                     EDM=1.53752e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      8.57886e-01   3.90869e-03   3.47846e-05   7.97729e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.528e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,2.67]
+promptALL: 1.00000001993
+promptSR: 0.95995280656
+nonpromptALL: 1.00000000442
+nonpromptSR: 0.240875112601
+nonpromptDataALL: 1.00000000466
+nonpromptDataSR: 0.218562504053
+modelALL: 1.00000001776
+modelSR: 0.859516940453
+purity from fit:  0.860326822886 +/- 0.0038958791957
+purity in SR:  0.960857324408 +/- 0.00435111862215
+ALT purity from fit:  0.857885917556 +/- 0.00390868656177
+ALT purity in SR:  0.963654172228 +/- 0.0043905862494
+[?1034h######################
+      Trigger         
+0 HLT_CaloJet500_NoJetID_v3
+1 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v7
+2 HLT_DoubleMu8_Mass8_PFHT300_v5
+3 HLT_Ele105_CaloIdVT_GsfTrkIdT_v6
+4 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v5
+5 HLT_Ele15_IsoVVVL_PFHT350_v5
+6 HLT_Ele15_IsoVVVL_PFHT400_v3
+7 HLT_Ele15_IsoVVVL_PFHT600_v6
+8 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v6
+9 HLT_Ele25_eta2p1_WPTight_v 
+10 HLT_Ele27_WPTight_v
+11 HLT_Ele27_eta2p1_WPLoose_v 
+12 HLT_Ele45_WPLoose_v
+13 HLT_Ele50_IsoVVVL_PFHT400_v3
+14 HLT_IsoMu16_eta2p1_MET30_v2
+15 HLT_IsoMu22_eta2p1_v2
+16 HLT_IsoMu22_v3
+17 HLT_IsoMu24_v 
+18 HLT_IsoTkMu22_v4
+19 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v3
+20 HLT_Mu15_IsoVVVL_PFHT350_v3
+21 HLT_Mu15_IsoVVVL_PFHT400_v1
+22 HLT_Mu15_IsoVVVL_PFHT600_v4
+23 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v3
+24 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v3
+25 HLT_Mu45_eta2p1_v3
+26 HLT_Mu50_IsoVVVL_PFHT400_v1
+27 HLT_Mu50_v3
+28 HLT_PFHT200_v3
+29 HLT_PFHT250_v3
+30 HLT_PFHT300_PFMET100_v2
+31 HLT_PFHT300_PFMET110_v2
+32 HLT_PFHT300_v3
+33 HLT_PFHT350_v4
+34 HLT_PFHT400_v3
+35 HLT_PFHT475_v3
+36 HLT_PFHT600_v4
+37 HLT_PFHT650_v4
+38 HLT_PFHT800_v3
+39 HLT_PFHT900_v2
+40 HLT_PFMET100_PFMHT100_IDTight_v3
+41 HLT_PFMET110_PFMHT110_IDTight_v3
+42 HLT_PFMET120_PFMHT120_IDTight_v3
+43 HLT_PFMET90_PFMHT90_IDTight_v3
+44 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v2
+45 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v2
+46 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v2
+47 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v2
+48 HLT_Photon165_HE10_v6
+49 HLT_Photon175_v6
+50 HLT_Photon90_CaloIdL_PFHT500_v6
+51 HLT_TkMu50_v2
+HLT_Photon175_v6
+######################
+nonpromptCut: &&MHT>250&&MHT<300&&NJets>=3&&HT>300
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(promptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=21812.2 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01  -4.74559e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=21803.3 FROM MIGRAD    STATUS=CONVERGED      17 CALLS          18 TOTAL
+                     EDM=5.5451e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.63111e-01   3.04846e-03   9.04311e-04  -2.65513e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  9.293e-06 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=21803.3 FROM HESSE     STATUS=OK              5 CALLS          23 TOTAL
+                     EDM=5.54615e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         8.63111e-01   3.04846e-03   3.61724e-05   8.12809e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  9.293e-06 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptDataPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=21793.7 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01  -5.87520e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=21780.1 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=9.62104e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.66200e-01   3.02035e-03   9.04144e-04  -1.10557e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  9.123e-06 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=21780.1 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=9.64262e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      8.66200e-01   3.02035e-03   1.80829e-04   8.21842e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  9.123e-06 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,2.67]
+promptALL: 1.00000003213
+promptSR: 0.94905089302
+nonpromptALL: 0.999999997206
+nonpromptSR: 0.202169272266
+nonpromptDataALL: 0.999999996275
+nonpromptDataSR: 0.19073670093
+modelALL: 1.00000002735
+modelSR: 0.846810699022
+purity from fit:  0.863110577156 +/- 0.00304846267743
+purity in SR:  0.967318745542 +/- 0.00341652063016
+ALT purity from fit:  0.866200475976 +/- 0.00302034504195
+ALT purity in SR:  0.969890493795 +/- 0.00338190064011
+[?1034h######################
+      Trigger         
+0 HLT_CaloJet500_NoJetID_v3
+1 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v7
+2 HLT_DoubleMu8_Mass8_PFHT300_v5
+3 HLT_Ele105_CaloIdVT_GsfTrkIdT_v6
+4 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v5
+5 HLT_Ele15_IsoVVVL_PFHT350_v5
+6 HLT_Ele15_IsoVVVL_PFHT400_v3
+7 HLT_Ele15_IsoVVVL_PFHT600_v6
+8 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v6
+9 HLT_Ele25_eta2p1_WPTight_v 
+10 HLT_Ele27_WPTight_v
+11 HLT_Ele27_eta2p1_WPLoose_v 
+12 HLT_Ele45_WPLoose_v
+13 HLT_Ele50_IsoVVVL_PFHT400_v3
+14 HLT_IsoMu16_eta2p1_MET30_v2
+15 HLT_IsoMu22_eta2p1_v2
+16 HLT_IsoMu22_v3
+17 HLT_IsoMu24_v 
+18 HLT_IsoTkMu22_v4
+19 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v3
+20 HLT_Mu15_IsoVVVL_PFHT350_v3
+21 HLT_Mu15_IsoVVVL_PFHT400_v1
+22 HLT_Mu15_IsoVVVL_PFHT600_v4
+23 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v3
+24 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v3
+25 HLT_Mu45_eta2p1_v3
+26 HLT_Mu50_IsoVVVL_PFHT400_v1
+27 HLT_Mu50_v3
+28 HLT_PFHT200_v3
+29 HLT_PFHT250_v3
+30 HLT_PFHT300_PFMET100_v2
+31 HLT_PFHT300_PFMET110_v2
+32 HLT_PFHT300_v3
+33 HLT_PFHT350_v4
+34 HLT_PFHT400_v3
+35 HLT_PFHT475_v3
+36 HLT_PFHT600_v4
+37 HLT_PFHT650_v4
+38 HLT_PFHT800_v3
+39 HLT_PFHT900_v2
+40 HLT_PFMET100_PFMHT100_IDTight_v3
+41 HLT_PFMET110_PFMHT110_IDTight_v3
+42 HLT_PFMET120_PFMHT120_IDTight_v3
+43 HLT_PFMET90_PFMHT90_IDTight_v3
+44 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v2
+45 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v2
+46 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v2
+47 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v2
+48 HLT_Photon165_HE10_v6
+49 HLT_Photon175_v6
+50 HLT_Photon90_CaloIdL_PFHT500_v6
+51 HLT_TkMu50_v2
+HLT_Photon175_v6
+######################
+nonpromptCut: &&MHT>300&&NJets>=3&&HT>300
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(promptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=11772.3 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01  -6.44698e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=11743.9 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=4.13732e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.79931e-01   3.77359e-03   8.68737e-04  -5.54031e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.424e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=11743.9 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=4.13848e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         8.79931e-01   3.77359e-03   1.73747e-04   8.63101e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.424e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptDataPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=11736.4 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01   4.32285e+01
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=11736.3 FROM MIGRAD    STATUS=CONVERGED      12 CALLS          13 TOTAL
+                     EDM=4.35462e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.47292e-01   4.76141e-03   9.89123e-04   4.98511e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.267e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=11736.3 FROM HESSE     STATUS=OK              5 CALLS          18 TOTAL
+                     EDM=4.35267e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      8.47292e-01   4.76141e-03   1.97825e-04   7.67840e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.267e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,2.67]
+promptALL: 1.00000000001
+promptSR: 0.952058875989
+nonpromptALL: 0.99999998603
+nonpromptSR: 0.194800398685
+nonpromptDataALL: 1.00000000373
+nonpromptDataSR: 0.345856355727
+modelALL: 0.999999998332
+modelSR: 0.861135681529
+purity from fit:  0.87993109726 +/- 0.00377359398623
+purity in SR:  0.972838809327 +/- 0.00417202970992
+ALT purity from fit:  0.847291631294 +/- 0.0047614107853
+ALT purity in SR:  0.938550345158 +/- 0.0052742451016
+[?1034h######################
+      Trigger         
+0 HLT_CaloJet500_NoJetID_v3
+1 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v7
+2 HLT_DoubleMu8_Mass8_PFHT300_v5
+3 HLT_Ele105_CaloIdVT_GsfTrkIdT_v6
+4 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v5
+5 HLT_Ele15_IsoVVVL_PFHT350_v5
+6 HLT_Ele15_IsoVVVL_PFHT400_v3
+7 HLT_Ele15_IsoVVVL_PFHT600_v6
+8 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v6
+9 HLT_Ele25_eta2p1_WPTight_v 
+10 HLT_Ele27_WPTight_v
+11 HLT_Ele27_eta2p1_WPLoose_v 
+12 HLT_Ele45_WPLoose_v
+13 HLT_Ele50_IsoVVVL_PFHT400_v3
+14 HLT_IsoMu16_eta2p1_MET30_v2
+15 HLT_IsoMu22_eta2p1_v2
+16 HLT_IsoMu22_v3
+17 HLT_IsoMu24_v 
+18 HLT_IsoTkMu22_v4
+19 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v3
+20 HLT_Mu15_IsoVVVL_PFHT350_v3
+21 HLT_Mu15_IsoVVVL_PFHT400_v1
+22 HLT_Mu15_IsoVVVL_PFHT600_v4
+23 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v3
+24 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v3
+25 HLT_Mu45_eta2p1_v3
+26 HLT_Mu50_IsoVVVL_PFHT400_v1
+27 HLT_Mu50_v3
+28 HLT_PFHT200_v3
+29 HLT_PFHT250_v3
+30 HLT_PFHT300_PFMET100_v2
+31 HLT_PFHT300_PFMET110_v2
+32 HLT_PFHT300_v3
+33 HLT_PFHT350_v4
+34 HLT_PFHT400_v3
+35 HLT_PFHT475_v3
+36 HLT_PFHT600_v4
+37 HLT_PFHT650_v4
+38 HLT_PFHT800_v3
+39 HLT_PFHT900_v2
+40 HLT_PFMET100_PFMHT100_IDTight_v3
+41 HLT_PFMET110_PFMHT110_IDTight_v3
+42 HLT_PFMET120_PFMHT120_IDTight_v3
+43 HLT_PFMET90_PFMHT90_IDTight_v3
+44 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v2
+45 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v2
+46 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v2
+47 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v2
+48 HLT_Photon165_HE10_v6
+49 HLT_Photon175_v6
+50 HLT_Photon90_CaloIdL_PFHT500_v6
+51 HLT_TkMu50_v2
+HLT_Photon175_v6
+######################
+nonpromptCut: &&MHT>300&&NJets>=3&&HT>300
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(promptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=9022.35 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01  -1.34157e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=8886.01 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=2.44005e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         9.14532e-01   3.39964e-03   7.91317e-04  -4.06216e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.156e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=8886.01 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=2.44011e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         9.14532e-01   3.39964e-03   1.58263e-04   9.77431e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.156e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptDataPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=8939.28 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01  -6.91425e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=8891.99 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=3.0075e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.95072e-01   4.24353e-03   9.01187e-04  -3.96038e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.801e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=8891.99 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=3.00764e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      8.95072e-01   4.24353e-03   1.80237e-04   9.11043e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.801e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,2.67]
+promptALL: 1.00000000696
+promptSR: 0.957552024517
+nonpromptALL: 1.00000001211
+nonpromptSR: 0.18377325505
+nonpromptDataALL: 1.00000000373
+nonpromptDataSR: 0.345856355727
+modelALL: 1.0000000074
+modelSR: 0.891418597474
+purity from fit:  0.914531866661 +/- 0.00339963947595
+purity in SR:  0.982380043414 +/- 0.00365185522531
+ALT purity from fit:  0.895071631863 +/- 0.00424352623018
+ALT purity in SR:  0.959378272551 +/- 0.00454840341187
+[?1034h######################
+      Trigger         
+0 HLT_CaloJet500_NoJetID_v3
+1 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v7
+2 HLT_DoubleMu8_Mass8_PFHT300_v5
+3 HLT_Ele105_CaloIdVT_GsfTrkIdT_v6
+4 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v5
+5 HLT_Ele15_IsoVVVL_PFHT350_v5
+6 HLT_Ele15_IsoVVVL_PFHT400_v3
+7 HLT_Ele15_IsoVVVL_PFHT600_v6
+8 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v6
+9 HLT_Ele25_eta2p1_WPTight_v 
+10 HLT_Ele27_WPTight_v
+11 HLT_Ele27_eta2p1_WPLoose_v 
+12 HLT_Ele45_WPLoose_v
+13 HLT_Ele50_IsoVVVL_PFHT400_v3
+14 HLT_IsoMu16_eta2p1_MET30_v2
+15 HLT_IsoMu22_eta2p1_v2
+16 HLT_IsoMu22_v3
+17 HLT_IsoMu24_v 
+18 HLT_IsoTkMu22_v4
+19 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v3
+20 HLT_Mu15_IsoVVVL_PFHT350_v3
+21 HLT_Mu15_IsoVVVL_PFHT400_v1
+22 HLT_Mu15_IsoVVVL_PFHT600_v4
+23 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v3
+24 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v3
+25 HLT_Mu45_eta2p1_v3
+26 HLT_Mu50_IsoVVVL_PFHT400_v1
+27 HLT_Mu50_v3
+28 HLT_PFHT200_v3
+29 HLT_PFHT250_v3
+30 HLT_PFHT300_PFMET100_v2
+31 HLT_PFHT300_PFMET110_v2
+32 HLT_PFHT300_v3
+33 HLT_PFHT350_v4
+34 HLT_PFHT400_v3
+35 HLT_PFHT475_v3
+36 HLT_PFHT600_v4
+37 HLT_PFHT650_v4
+38 HLT_PFHT800_v3
+39 HLT_PFHT900_v2
+40 HLT_PFMET100_PFMHT100_IDTight_v3
+41 HLT_PFMET110_PFMHT110_IDTight_v3
+42 HLT_PFMET120_PFMHT120_IDTight_v3
+43 HLT_PFMET90_PFMHT90_IDTight_v3
+44 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v2
+45 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v2
+46 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v2
+47 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v2
+48 HLT_Photon165_HE10_v6
+49 HLT_Photon175_v6
+50 HLT_Photon90_CaloIdL_PFHT500_v6
+51 HLT_TkMu50_v2
+HLT_Photon175_v6
+######################
+nonpromptCut: &&MHT>300&&NJets>=3&&HT>300
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(promptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=1734.21 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01  -6.74172e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=1598.57 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=2.94895e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         9.62043e-01   4.67944e-03   6.76267e-04  -2.21738e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.190e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=1598.57 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=2.94895e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         9.62043e-01   4.67944e-03   1.35253e-04   1.17864e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.190e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptDataPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=1670.31 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01  -4.25612e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=1596.11 FROM MIGRAD    STATUS=CONVERGED      18 CALLS          19 TOTAL
+                     EDM=2.65183e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      9.49965e-01   6.08901e-03   7.70744e-04  -5.82990e-04
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  3.709e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=1596.11 FROM HESSE     STATUS=OK              5 CALLS          24 TOTAL
+                     EDM=2.65786e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      9.49965e-01   6.08901e-03   1.54149e-04   1.11961e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  3.709e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,2.67]
+promptALL: 0.999999981315
+promptSR: 0.963869168386
+nonpromptALL: 1.00000000093
+nonpromptSR: 0.170031856373
+nonpromptDataALL: 1.00000000373
+nonpromptDataSR: 0.345856355727
+modelALL: 0.99999998206
+modelSR: 0.933737296462
+purity from fit:  0.962042761825 +/- 0.00467944345208
+purity in SR:  0.993088056385 +/- 0.00483044994172
+ALT purity from fit:  0.949964639544 +/- 0.00608901410678
+ALT purity in SR:  0.981451193818 +/- 0.00629083432742
+[?1034h######################
+      Trigger         
+0 HLT_CaloJet500_NoJetID_v3
+1 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v7
+2 HLT_DoubleMu8_Mass8_PFHT300_v5
+3 HLT_Ele105_CaloIdVT_GsfTrkIdT_v6
+4 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v5
+5 HLT_Ele15_IsoVVVL_PFHT350_v5
+6 HLT_Ele15_IsoVVVL_PFHT400_v3
+7 HLT_Ele15_IsoVVVL_PFHT600_v6
+8 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v6
+9 HLT_Ele25_eta2p1_WPTight_v 
+10 HLT_Ele27_WPTight_v
+11 HLT_Ele27_eta2p1_WPLoose_v 
+12 HLT_Ele45_WPLoose_v
+13 HLT_Ele50_IsoVVVL_PFHT400_v3
+14 HLT_IsoMu16_eta2p1_MET30_v2
+15 HLT_IsoMu22_eta2p1_v2
+16 HLT_IsoMu22_v3
+17 HLT_IsoMu24_v 
+18 HLT_IsoTkMu22_v4
+19 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v3
+20 HLT_Mu15_IsoVVVL_PFHT350_v3
+21 HLT_Mu15_IsoVVVL_PFHT400_v1
+22 HLT_Mu15_IsoVVVL_PFHT600_v4
+23 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v3
+24 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v3
+25 HLT_Mu45_eta2p1_v3
+26 HLT_Mu50_IsoVVVL_PFHT400_v1
+27 HLT_Mu50_v3
+28 HLT_PFHT200_v3
+29 HLT_PFHT250_v3
+30 HLT_PFHT300_PFMET100_v2
+31 HLT_PFHT300_PFMET110_v2
+32 HLT_PFHT300_v3
+33 HLT_PFHT350_v4
+34 HLT_PFHT400_v3
+35 HLT_PFHT475_v3
+36 HLT_PFHT600_v4
+37 HLT_PFHT650_v4
+38 HLT_PFHT800_v3
+39 HLT_PFHT900_v2
+40 HLT_PFMET100_PFMHT100_IDTight_v3
+41 HLT_PFMET110_PFMHT110_IDTight_v3
+42 HLT_PFMET120_PFMHT120_IDTight_v3
+43 HLT_PFMET90_PFMHT90_IDTight_v3
+44 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v2
+45 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v2
+46 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v2
+47 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v2
+48 HLT_Photon165_HE10_v6
+49 HLT_Photon175_v6
+50 HLT_Photon90_CaloIdL_PFHT500_v6
+51 HLT_TkMu50_v2
+HLT_Photon175_v6
+######################
+nonpromptCut: &&MHT>200&&MHT<225&&NJets>=3&&HT>300
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(promptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=12020.6 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01   1.92359e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=11620.2 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=8.20695e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         6.71171e-01   7.23584e-03   1.14169e-03   1.85989e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  5.236e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=11620.2 FROM HESSE     STATUS=OK              5 CALLS          22 TOTAL
+                     EDM=8.20598e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         6.71171e-01   7.23584e-03   2.28337e-04   3.49408e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  5.236e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptDataPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=11976.7 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01   2.00879e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=11553.1 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=3.70915e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      6.69137e-01   7.09232e-03   1.11534e-03   1.27766e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  5.030e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=11553.1 FROM HESSE     STATUS=OK              5 CALLS          22 TOTAL
+                     EDM=3.70864e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      6.69137e-01   7.09232e-03   2.23067e-04   3.45081e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  5.030e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,1.79]
+promptALL: 1.00000002686
+promptSR: 0.920340684429
+nonpromptALL: 1.0
+nonpromptSR: 0.238328785934
+nonpromptDataALL: 1.00000000559
+nonpromptDataSR: 0.233769918084
+modelALL: 1.00000001803
+modelSR: 0.696075258447
+purity from fit:  0.671170801453 +/- 0.00723583923347
+purity in SR:  0.887412367289 +/- 0.00956712242188
+ALT purity from fit:  0.669136558782 +/- 0.00709231718522
+ALT purity in SR:  0.888418628941 +/- 0.00941653333241
+[?1034h######################
+      Trigger         
+0 HLT_CaloJet500_NoJetID_v3
+1 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v7
+2 HLT_DoubleMu8_Mass8_PFHT300_v5
+3 HLT_Ele105_CaloIdVT_GsfTrkIdT_v6
+4 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v5
+5 HLT_Ele15_IsoVVVL_PFHT350_v5
+6 HLT_Ele15_IsoVVVL_PFHT400_v3
+7 HLT_Ele15_IsoVVVL_PFHT600_v6
+8 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v6
+9 HLT_Ele25_eta2p1_WPTight_v 
+10 HLT_Ele27_WPTight_v
+11 HLT_Ele27_eta2p1_WPLoose_v 
+12 HLT_Ele45_WPLoose_v
+13 HLT_Ele50_IsoVVVL_PFHT400_v3
+14 HLT_IsoMu16_eta2p1_MET30_v2
+15 HLT_IsoMu22_eta2p1_v2
+16 HLT_IsoMu22_v3
+17 HLT_IsoMu24_v 
+18 HLT_IsoTkMu22_v4
+19 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v3
+20 HLT_Mu15_IsoVVVL_PFHT350_v3
+21 HLT_Mu15_IsoVVVL_PFHT400_v1
+22 HLT_Mu15_IsoVVVL_PFHT600_v4
+23 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v3
+24 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v3
+25 HLT_Mu45_eta2p1_v3
+26 HLT_Mu50_IsoVVVL_PFHT400_v1
+27 HLT_Mu50_v3
+28 HLT_PFHT200_v3
+29 HLT_PFHT250_v3
+30 HLT_PFHT300_PFMET100_v2
+31 HLT_PFHT300_PFMET110_v2
+32 HLT_PFHT300_v3
+33 HLT_PFHT350_v4
+34 HLT_PFHT400_v3
+35 HLT_PFHT475_v3
+36 HLT_PFHT600_v4
+37 HLT_PFHT650_v4
+38 HLT_PFHT800_v3
+39 HLT_PFHT900_v2
+40 HLT_PFMET100_PFMHT100_IDTight_v3
+41 HLT_PFMET110_PFMHT110_IDTight_v3
+42 HLT_PFMET120_PFMHT120_IDTight_v3
+43 HLT_PFMET90_PFMHT90_IDTight_v3
+44 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v2
+45 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v2
+46 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v2
+47 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v2
+48 HLT_Photon165_HE10_v6
+49 HLT_Photon175_v6
+50 HLT_Photon90_CaloIdL_PFHT500_v6
+51 HLT_TkMu50_v2
+HLT_Photon175_v6
+######################
+nonpromptCut: &&MHT>225&&MHT<250&&NJets>=3&&HT>300
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(promptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=16278.4 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01   3.30756e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=15350.5 FROM MIGRAD    STATUS=CONVERGED      17 CALLS          18 TOTAL
+                     EDM=4.68983e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         5.97209e-01   6.82708e-03   1.18668e-03   1.55573e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  4.661e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=15350.5 FROM HESSE     STATUS=OK              5 CALLS          23 TOTAL
+                     EDM=4.68887e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         5.97209e-01   6.82708e-03   2.37336e-04   1.95663e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  4.661e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptDataPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=16269.8 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01   3.25701e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=15377.1 FROM MIGRAD    STATUS=CONVERGED      17 CALLS          18 TOTAL
+                     EDM=5.72194e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      6.03382e-01   6.79898e-03   1.18556e-03   1.72106e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  4.623e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=15377.1 FROM HESSE     STATUS=OK              5 CALLS          23 TOTAL
+                     EDM=5.72082e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      6.03382e-01   6.79898e-03   2.37113e-04   2.08266e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  4.623e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,1.79]
+promptALL: 0.999999984801
+promptSR: 0.921700034626
+nonpromptALL: 1.00000000559
+nonpromptSR: 0.234344697669
+nonpromptDataALL: 0.999999989755
+nonpromptDataSR: 0.227483954281
+modelALL: 0.999999993174
+modelSR: 0.644839210242
+purity from fit:  0.597208591396 +/- 0.00682707637154
+purity in SR:  0.853619277955 +/- 0.00975827221306
+ALT purity from fit:  0.603381654165 +/- 0.00679898397257
+ALT purity in SR:  0.860411935153 +/- 0.00969523504158
+[?1034h######################
+      Trigger         
+0 HLT_CaloJet500_NoJetID_v3
+1 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v7
+2 HLT_DoubleMu8_Mass8_PFHT300_v5
+3 HLT_Ele105_CaloIdVT_GsfTrkIdT_v6
+4 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v5
+5 HLT_Ele15_IsoVVVL_PFHT350_v5
+6 HLT_Ele15_IsoVVVL_PFHT400_v3
+7 HLT_Ele15_IsoVVVL_PFHT600_v6
+8 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v6
+9 HLT_Ele25_eta2p1_WPTight_v 
+10 HLT_Ele27_WPTight_v
+11 HLT_Ele27_eta2p1_WPLoose_v 
+12 HLT_Ele45_WPLoose_v
+13 HLT_Ele50_IsoVVVL_PFHT400_v3
+14 HLT_IsoMu16_eta2p1_MET30_v2
+15 HLT_IsoMu22_eta2p1_v2
+16 HLT_IsoMu22_v3
+17 HLT_IsoMu24_v 
+18 HLT_IsoTkMu22_v4
+19 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v3
+20 HLT_Mu15_IsoVVVL_PFHT350_v3
+21 HLT_Mu15_IsoVVVL_PFHT400_v1
+22 HLT_Mu15_IsoVVVL_PFHT600_v4
+23 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v3
+24 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v3
+25 HLT_Mu45_eta2p1_v3
+26 HLT_Mu50_IsoVVVL_PFHT400_v1
+27 HLT_Mu50_v3
+28 HLT_PFHT200_v3
+29 HLT_PFHT250_v3
+30 HLT_PFHT300_PFMET100_v2
+31 HLT_PFHT300_PFMET110_v2
+32 HLT_PFHT300_v3
+33 HLT_PFHT350_v4
+34 HLT_PFHT400_v3
+35 HLT_PFHT475_v3
+36 HLT_PFHT600_v4
+37 HLT_PFHT650_v4
+38 HLT_PFHT800_v3
+39 HLT_PFHT900_v2
+40 HLT_PFMET100_PFMHT100_IDTight_v3
+41 HLT_PFMET110_PFMHT110_IDTight_v3
+42 HLT_PFMET120_PFMHT120_IDTight_v3
+43 HLT_PFMET90_PFMHT90_IDTight_v3
+44 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v2
+45 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v2
+46 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v2
+47 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v2
+48 HLT_Photon165_HE10_v6
+49 HLT_Photon175_v6
+50 HLT_Photon90_CaloIdL_PFHT500_v6
+51 HLT_TkMu50_v2
+HLT_Photon175_v6
+######################
+nonpromptCut: &&MHT>250&&MHT<300&&NJets>=3&&HT>300
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(promptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=28319.1 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01   5.30952e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=26808 FROM MIGRAD    STATUS=CONVERGED      20 CALLS          21 TOTAL
+                     EDM=5.57424e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         5.99479e-01   5.20854e-03   1.20182e-03  -2.22110e-05
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.713e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=26808 FROM HESSE     STATUS=OK              5 CALLS          26 TOTAL
+                     EDM=5.92134e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         5.99479e-01   5.20854e-03   4.80729e-05   2.00294e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.713e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptDataPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=28313.8 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01   5.22995e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=26809.6 FROM MIGRAD    STATUS=CONVERGED      20 CALLS          21 TOTAL
+                     EDM=3.84096e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      5.96036e-01   5.29557e-03   1.22021e-03   1.81596e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.804e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=26809.6 FROM HESSE     STATUS=OK              5 CALLS          26 TOTAL
+                     EDM=3.83828e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      5.96036e-01   5.29557e-03   4.88083e-05   1.93274e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.804e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,1.79]
+promptALL: 0.999999991676
+promptSR: 0.911050851829
+nonpromptALL: 0.999999997206
+nonpromptSR: 0.185357967839
+nonpromptDataALL: 0.999999988824
+nonpromptDataSR: 0.1977018103
+modelALL: 0.999999993891
+modelSR: 0.620395425615
+purity from fit:  0.599478742832 +/- 0.00520853954345
+purity in SR:  0.880334698036 +/- 0.00764874174609
+ALT purity from fit:  0.596036349005 +/- 0.00529556745944
+ALT purity in SR:  0.871782908266 +/- 0.00774547594021
+[?1034h######################
+      Trigger         
+0 HLT_CaloJet500_NoJetID_v3
+1 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v7
+2 HLT_DoubleMu8_Mass8_PFHT300_v5
+3 HLT_Ele105_CaloIdVT_GsfTrkIdT_v6
+4 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v5
+5 HLT_Ele15_IsoVVVL_PFHT350_v5
+6 HLT_Ele15_IsoVVVL_PFHT400_v3
+7 HLT_Ele15_IsoVVVL_PFHT600_v6
+8 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v6
+9 HLT_Ele25_eta2p1_WPTight_v 
+10 HLT_Ele27_WPTight_v
+11 HLT_Ele27_eta2p1_WPLoose_v 
+12 HLT_Ele45_WPLoose_v
+13 HLT_Ele50_IsoVVVL_PFHT400_v3
+14 HLT_IsoMu16_eta2p1_MET30_v2
+15 HLT_IsoMu22_eta2p1_v2
+16 HLT_IsoMu22_v3
+17 HLT_IsoMu24_v 
+18 HLT_IsoTkMu22_v4
+19 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v3
+20 HLT_Mu15_IsoVVVL_PFHT350_v3
+21 HLT_Mu15_IsoVVVL_PFHT400_v1
+22 HLT_Mu15_IsoVVVL_PFHT600_v4
+23 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v3
+24 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v3
+25 HLT_Mu45_eta2p1_v3
+26 HLT_Mu50_IsoVVVL_PFHT400_v1
+27 HLT_Mu50_v3
+28 HLT_PFHT200_v3
+29 HLT_PFHT250_v3
+30 HLT_PFHT300_PFMET100_v2
+31 HLT_PFHT300_PFMET110_v2
+32 HLT_PFHT300_v3
+33 HLT_PFHT350_v4
+34 HLT_PFHT400_v3
+35 HLT_PFHT475_v3
+36 HLT_PFHT600_v4
+37 HLT_PFHT650_v4
+38 HLT_PFHT800_v3
+39 HLT_PFHT900_v2
+40 HLT_PFMET100_PFMHT100_IDTight_v3
+41 HLT_PFMET110_PFMHT110_IDTight_v3
+42 HLT_PFMET120_PFMHT120_IDTight_v3
+43 HLT_PFMET90_PFMHT90_IDTight_v3
+44 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v2
+45 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v2
+46 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v2
+47 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v2
+48 HLT_Photon165_HE10_v6
+49 HLT_Photon175_v6
+50 HLT_Photon90_CaloIdL_PFHT500_v6
+51 HLT_TkMu50_v2
+HLT_Photon175_v6
+######################
+nonpromptCut: &&MHT>300&&NJets>=3&&HT>300
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(promptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=14322.6 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01   2.70071e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=13605.1 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=2.63769e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         6.14014e-01   7.19025e-03   1.18364e-03   3.47718e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  5.170e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=13605.1 FROM HESSE     STATUS=OK              5 CALLS          22 TOTAL
+                     EDM=2.63753e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         6.14014e-01   7.19025e-03   2.36727e-04   2.30051e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  5.170e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptDataPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=14357.4 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01   2.73509e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=13596.7 FROM MIGRAD    STATUS=CONVERGED      17 CALLS          18 TOTAL
+                     EDM=2.67514e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      6.00061e-01   7.43818e-03   1.21878e-03   1.07717e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  5.533e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=13596.7 FROM HESSE     STATUS=OK              5 CALLS          23 TOTAL
+                     EDM=2.67448e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      6.00061e-01   7.43818e-03   2.43755e-04   2.01483e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  5.533e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,1.79]
+promptALL: 1.0000000047
+promptSR: 0.904057527632
+nonpromptALL: 1.0
+nonpromptSR: 0.185898364037
+nonpromptDataALL: 1.00000000186
+nonpromptDataSR: 0.213481014222
+modelALL: 1.00000000289
+modelSR: 0.626857842549
+purity from fit:  0.614013579252 +/- 0.00719025324503
+purity in SR:  0.885533466145 +/- 0.0103698193227
+ALT purity from fit:  0.600061286209 +/- 0.00743818006633
+ALT purity in SR:  0.864017352141 +/- 0.0107101004403
+[?1034h######################
+      Trigger         
+0 HLT_CaloJet500_NoJetID_v3
+1 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v7
+2 HLT_DoubleMu8_Mass8_PFHT300_v5
+3 HLT_Ele105_CaloIdVT_GsfTrkIdT_v6
+4 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v5
+5 HLT_Ele15_IsoVVVL_PFHT350_v5
+6 HLT_Ele15_IsoVVVL_PFHT400_v3
+7 HLT_Ele15_IsoVVVL_PFHT600_v6
+8 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v6
+9 HLT_Ele25_eta2p1_WPTight_v 
+10 HLT_Ele27_WPTight_v
+11 HLT_Ele27_eta2p1_WPLoose_v 
+12 HLT_Ele45_WPLoose_v
+13 HLT_Ele50_IsoVVVL_PFHT400_v3
+14 HLT_IsoMu16_eta2p1_MET30_v2
+15 HLT_IsoMu22_eta2p1_v2
+16 HLT_IsoMu22_v3
+17 HLT_IsoMu24_v 
+18 HLT_IsoTkMu22_v4
+19 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v3
+20 HLT_Mu15_IsoVVVL_PFHT350_v3
+21 HLT_Mu15_IsoVVVL_PFHT400_v1
+22 HLT_Mu15_IsoVVVL_PFHT600_v4
+23 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v3
+24 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v3
+25 HLT_Mu45_eta2p1_v3
+26 HLT_Mu50_IsoVVVL_PFHT400_v1
+27 HLT_Mu50_v3
+28 HLT_PFHT200_v3
+29 HLT_PFHT250_v3
+30 HLT_PFHT300_PFMET100_v2
+31 HLT_PFHT300_PFMET110_v2
+32 HLT_PFHT300_v3
+33 HLT_PFHT350_v4
+34 HLT_PFHT400_v3
+35 HLT_PFHT475_v3
+36 HLT_PFHT600_v4
+37 HLT_PFHT650_v4
+38 HLT_PFHT800_v3
+39 HLT_PFHT900_v2
+40 HLT_PFMET100_PFMHT100_IDTight_v3
+41 HLT_PFMET110_PFMHT110_IDTight_v3
+42 HLT_PFMET120_PFMHT120_IDTight_v3
+43 HLT_PFMET90_PFMHT90_IDTight_v3
+44 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v2
+45 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v2
+46 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v2
+47 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v2
+48 HLT_Photon165_HE10_v6
+49 HLT_Photon175_v6
+50 HLT_Photon90_CaloIdL_PFHT500_v6
+51 HLT_TkMu50_v2
+HLT_Photon175_v6
+######################
+nonpromptCut: &&MHT>300&&NJets>=3&&HT>300
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(promptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=9224.15 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01   1.63673e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=8882.48 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=2.19387e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         6.71243e-01   7.79452e-03   1.07696e-03   8.92634e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  6.076e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=8882.48 FROM HESSE     STATUS=OK              5 CALLS          22 TOTAL
+                     EDM=2.19357e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         6.71243e-01   7.79452e-03   2.15392e-04   3.49561e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  6.076e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptDataPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=9247.44 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01   1.64485e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=8878.43 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=1.09806e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      6.55120e-01   8.24726e-03   1.12364e-03   1.90974e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  6.802e-05 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=8878.43 FROM HESSE     STATUS=OK              5 CALLS          22 TOTAL
+                     EDM=1.09796e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      6.55120e-01   8.24726e-03   2.24729e-04   3.15446e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  6.802e-05 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,1.79]
+promptALL: 1.00000000521
+promptSR: 0.925813844092
+nonpromptALL: 1.00000000745
+nonpromptSR: 0.17080722373
+nonpromptDataALL: 1.00000000186
+nonpromptDataSR: 0.213481014222
+modelALL: 1.00000000595
+modelSR: 0.677599761004
+purity from fit:  0.671242507822 +/- 0.00779451928539
+purity in SR:  0.917127842075 +/- 0.010649758573
+ALT purity from fit:  0.655120288476 +/- 0.00824726173324
+ALT purity in SR:  0.891750578263 +/- 0.011226183266
+[?1034h######################
+      Trigger         
+0 HLT_CaloJet500_NoJetID_v3
+1 HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v7
+2 HLT_DoubleMu8_Mass8_PFHT300_v5
+3 HLT_Ele105_CaloIdVT_GsfTrkIdT_v6
+4 HLT_Ele15_IsoVVVL_PFHT350_PFMET50_v5
+5 HLT_Ele15_IsoVVVL_PFHT350_v5
+6 HLT_Ele15_IsoVVVL_PFHT400_v3
+7 HLT_Ele15_IsoVVVL_PFHT600_v6
+8 HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v6
+9 HLT_Ele25_eta2p1_WPTight_v 
+10 HLT_Ele27_WPTight_v
+11 HLT_Ele27_eta2p1_WPLoose_v 
+12 HLT_Ele45_WPLoose_v
+13 HLT_Ele50_IsoVVVL_PFHT400_v3
+14 HLT_IsoMu16_eta2p1_MET30_v2
+15 HLT_IsoMu22_eta2p1_v2
+16 HLT_IsoMu22_v3
+17 HLT_IsoMu24_v 
+18 HLT_IsoTkMu22_v4
+19 HLT_Mu15_IsoVVVL_PFHT350_PFMET50_v3
+20 HLT_Mu15_IsoVVVL_PFHT350_v3
+21 HLT_Mu15_IsoVVVL_PFHT400_v1
+22 HLT_Mu15_IsoVVVL_PFHT600_v4
+23 HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v3
+24 HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v3
+25 HLT_Mu45_eta2p1_v3
+26 HLT_Mu50_IsoVVVL_PFHT400_v1
+27 HLT_Mu50_v3
+28 HLT_PFHT200_v3
+29 HLT_PFHT250_v3
+30 HLT_PFHT300_PFMET100_v2
+31 HLT_PFHT300_PFMET110_v2
+32 HLT_PFHT300_v3
+33 HLT_PFHT350_v4
+34 HLT_PFHT400_v3
+35 HLT_PFHT475_v3
+36 HLT_PFHT600_v4
+37 HLT_PFHT650_v4
+38 HLT_PFHT800_v3
+39 HLT_PFHT900_v2
+40 HLT_PFMET100_PFMHT100_IDTight_v3
+41 HLT_PFMET110_PFMHT110_IDTight_v3
+42 HLT_PFMET120_PFMHT120_IDTight_v3
+43 HLT_PFMET90_PFMHT90_IDTight_v3
+44 HLT_PFMETNoMu100_PFMHTNoMu100_IDTight_v2
+45 HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v2
+46 HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v2
+47 HLT_PFMETNoMu90_PFMHTNoMu90_IDTight_v2
+48 HLT_Photon165_HE10_v6
+49 HLT_Photon175_v6
+50 HLT_Photon90_CaloIdL_PFHT500_v6
+51 HLT_TkMu50_v2
+HLT_Photon175_v6
+######################
+nonpromptCut: &&MHT>300&&NJets>=3&&HT>300
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(promptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptDataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(nonpromptHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataHist): fit range of variable sieie expanded to nearest bin boundaries: [0,20] --> [0,20]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=947.286 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         8.50000e-01   7.50000e-02   2.16811e-01   1.03872e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=938.448 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=5.35823e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac         7.83591e-01   1.71208e-02   8.78686e-04   1.76013e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.933e-04 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=938.448 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=5.35816e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  frac         7.83591e-01   1.71208e-02   1.75737e-04   6.03079e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.933e-04 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (promptPdf,nonpromptDataPdf)
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=948.267 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      8.50000e-01   7.50000e-02   2.16811e-01   1.30626e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=932.826 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=2.17144e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fracALT      7.54404e-01   1.90744e-02   9.31937e-04   1.05122e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  3.641e-04 
+ **********
+ **   18 **HESSE         500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=932.826 FROM HESSE     STATUS=OK              5 CALLS          22 TOTAL
+                     EDM=2.17095e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fracALT      7.54404e-01   1.90744e-02   1.86387e-04   5.33800e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  3.641e-04 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'SR' created with bounds [0,1.79]
+promptALL: 1.0000000227
+promptSR: 0.939263644498
+nonpromptALL: 0.999999994412
+nonpromptSR: 0.13293062523
+nonpromptDataALL: 1.00000000186
+nonpromptDataSR: 0.213481014222
+modelALL: 1.00000001658
+modelSR: 0.764765532273
+purity from fit:  0.783590516505 +/- 0.0171207550267
+purity in SR:  0.962383962776 +/- 0.0210272326187
+ALT purity from fit:  0.754404306594 +/- 0.0190744002342
+ALT purity in SR:  0.931105103956 +/- 0.0235421129728
