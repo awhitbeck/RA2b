@@ -52,7 +52,7 @@ stack.Add(nonPrompt_hist)
 Data_hist = gDirectory.Get("Data")
 Data_hist.SetMarkerStyle(8)
 
-sieie = RooRealVar("sieie","#sigma_{i#etai#eta}",0.004,0.019)
+sieie = RooRealVar("sieie","Iso_{chrg} [GeV]",0.004,0.019)
 
 promptDataHist = RooDataHist("promptDataHist","promptDataHist",RooArgList(sieie),prompt_hist)
 promptPdf = RooHistPdf("promptPdf","promptPdf",RooArgSet(sieie),promptDataHist)
